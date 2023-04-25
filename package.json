@@ -1,0 +1,11 @@
+{
+  "name": "vite-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "vite build --ssr server.js && node dist/server.js"
+  },
+  "author": ""
+}
